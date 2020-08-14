@@ -22,7 +22,8 @@ export const aboutData = {
     'I began my journey on free sites like The Odin Project and Codecademy, which progressed to Turing School of Software and Design to learn how to work with others on a large project',
   paragraphTwo:
     "Now that I'm working professionally, I know that I've finally found what I love to do.",
-  paragraphThree: "I'm always looking for new oppurnities, and I'm delighted for what lies ahead.",
+  paragraphThree:
+    "I'm always looking for new opportunities, and I'm delighted for what lies ahead.",
   resume: 'https://resume.creddle.io/resume/4cv0xi3rb72', // if no resume, the button will not show up
 };
 
