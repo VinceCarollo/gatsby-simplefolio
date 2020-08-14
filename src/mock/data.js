@@ -18,9 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'proPic.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'I began my journey on free sites like The Odin Project and Codecademy, which progressed to Turing School of Software and Design to learn how to work with others on a large project',
+  paragraphTwo:
+    "Now that I'm in a professional setting, I know that I've finally found what I love to do.",
+  paragraphThree: "I'm always looking for new oppurnities, and I'm delighted for what lies ahead.",
   resume: 'https://resume.creddle.io/resume/4cv0xi3rb72', // if no resume, the button will not show up
 };
 
@@ -28,12 +30,13 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'SophiaPic.png',
+    title: 'Sophia',
+    info:
+      "Speech Operated Peronal Home Interactive Assistant. This is a React Native app with a Ruby on Rails backend. I focused heavily on db schema creation and Google's speech to text api to allow users to record their voice to create tasks for their caretakers.",
+    info2: "Took 1st place at Turing School of Software and Design's Demo Competition",
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/kalex19/Sophia-Native', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
