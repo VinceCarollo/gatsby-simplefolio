@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Vince Carollo',
-  subtitle: "I'm a Web Developer",
+  subtitle: "I'm a web developer",
   cta: '',
 };
 
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'I began my journey on free sites like The Odin Project and Codecademy, which progressed to Turing School of Software and Design to learn how to work with others on a large project',
   paragraphTwo:
-    "Now that I'm in a professional setting, I know that I've finally found what I love to do.",
+    "Now that I'm working professionally, I know that I've finally found what I love to do.",
   paragraphThree: "I'm always looking for new oppurnities, and I'm delighted for what lies ahead.",
   resume: 'https://resume.creddle.io/resume/4cv0xi3rb72', // if no resume, the button will not show up
 };
@@ -34,27 +34,29 @@ export const projectsData = [
     title: 'Sophia',
     info:
       "Speech Operated Peronal Home Interactive Assistant. This is a React Native app with a Ruby on Rails backend. I focused heavily on db schema creation and Google's speech to text api to allow users to record their voice to create tasks for their caretakers.",
-    info2: "Took 1st place at Turing School of Software and Design's Demo Competition",
+    info2: "Took 1st place at Turing School of Software and Design's 2019 Demo Competition",
     url: '',
     repo: 'https://github.com/kalex19/Sophia-Native', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'HomeChef.png',
+    title: 'HomeChef',
+    info:
+      'Rails 6 booking app that facilitates hiring of home chefs for a personal chef experience. Chefs can enter dishes that customers can choose from based on quantity and price.',
+    info2: 'Used to learn webpack and build a front end with interactive JS',
+    url: 'https://evening-reaches-67042.herokuapp.com/',
+    repo: 'https://github.com/VinceCarollo/home_chef', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'RioPic.jpg',
+    title: 'Koroibos',
+    info:
+      'Fourty Eight hour challenge to import and serve up various endpoints from a large CSV file that contains data from the 2016 Olympic games.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://sheltered-mesa-39586.herokuapp.com/',
+    repo: 'https://github.com/VinceCarollo/koroibos', // if no repo, the button will not show up
   },
 ];
 
