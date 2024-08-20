@@ -19,11 +19,10 @@ export const heroData = {
 export const aboutData = {
   img: 'proPic.jpg',
   paragraphOne:
-    'I began my journey on free sites like The Odin Project and Codecademy, which progressed to Turing School of Software and Design to learn how to work with others on a large project',
+    "My journey in software engineering began at the Turing School of Software and Design, where I gained invaluable hands-on experience collaborating with like minded individuals. Since then, I've had the privilege of working with a large team of passionate engineers, all pushing the boundaries of what's possible every day.",
   paragraphTwo:
-    "Now that I'm working professionally, I know that I've finally found what I love to do.",
-  paragraphThree:
-    "I'm always looking for new opportunities, and I'm delighted for what lies ahead.",
+    'I consider myself fortunate to have learned from some of the brightest minds in the industry, and I know that this is only the beginning.',
+  paragraphThree: "I'm always looking for new opportunities, and I'm excited for what lies ahead.",
   resume: 'https://resume.creddle.io/resume/4cv0xi3rb72', // if no resume, the button will not show up
 };
 
