@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Vince Carollo',
-  subtitle: "I'm a web developer",
+  subtitle: "I'm a Software Developer",
   cta: '',
 };
 
@@ -31,6 +31,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'discapedia.png',
+    title: 'Discapedia',
+    info:
+      'A Rails 7 application leveraging pg_search for autocomplete functionality and a custom search algorithm to deliver the most accurate match based on user input.',
+    info2: '',
+    url: 'https://discapedia.com/',
+    repo: 'https://github.com/VinceCarollo/discapedia', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'SophiaPic.png',
     title: 'Sophia',
     info:
@@ -48,16 +58,6 @@ export const projectsData = [
     info2: 'Used to learn webpack and build a front end with interactive JS',
     url: 'https://evening-reaches-67042.herokuapp.com/',
     repo: 'https://github.com/VinceCarollo/home_chef', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'RioPic.jpg',
-    title: 'Koroibos',
-    info:
-      'Fourty Eight hour challenge to import and serve up various endpoints from a large CSV file that contains data from the 2016 Olympic games.',
-    info2: '',
-    url: 'https://sheltered-mesa-39586.herokuapp.com/',
-    repo: 'https://github.com/VinceCarollo/koroibos', // if no repo, the button will not show up
   },
 ];
 
