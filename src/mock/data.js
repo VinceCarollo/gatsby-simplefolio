@@ -33,8 +33,9 @@ export const projectsData = [
     img: 'discapedia.png',
     title: 'Discapedia',
     info:
-      'A Rails 7 application leveraging pg_search for autocomplete functionality and a custom search algorithm to deliver the most accurate match based on user input.',
-    info2: '',
+      'Discapedia allows users to search for disc golf discs by name or manufacturer, providing instant access to detailed flight numbers and performance metrics.',
+    info2:
+      'A Rails 7 application leveraging pg_search for autocomplete functionality and a custom search algorithm to deliver the most accurate match based on user input. Utilizes Hotwire to render results instantly via turbo frame.',
     url: 'https://discapedia.com/',
     repo: 'https://github.com/VinceCarollo/discapedia', // if no repo, the button will not show up
   },
@@ -44,7 +45,7 @@ export const projectsData = [
     title: 'Sophia',
     info:
       "Speech Operated Peronal Home Interactive Assistant. This is a React Native app with a Ruby on Rails backend. I focused heavily on db schema creation and Google's speech to text api to allow users to record their voice to create tasks for their caretakers.",
-    info2: "Took 1st place at Turing School of Software and Design's 2019 Demo Competition",
+    info2: "Took 1st place at Turing School of Software and Design's 2019 Demo Competition.",
     url: '',
     repo: 'https://github.com/kalex19/Sophia-Native', // if no repo, the button will not show up
   },
@@ -54,7 +55,7 @@ export const projectsData = [
     title: 'HomeChef',
     info:
       'Rails 6 booking app that facilitates hiring of home chefs for a personal chef experience. Chefs can enter dishes that customers can choose from based on quantity and price.',
-    info2: 'Used to learn webpack and build a front end with interactive JS',
+    info2: 'Used to learn webpack and build a front end with interactive JS.',
     url: 'https://evening-reaches-67042.herokuapp.com/',
     repo: 'https://github.com/VinceCarollo/home_chef', // if no repo, the button will not show up
   },
