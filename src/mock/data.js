@@ -61,13 +61,6 @@ export const projectsData = [
   },
 ];
 
-// CONTACT DATA
-export const contactData = {
-  cta: '',
-  btn: '',
-  email: 'vincecarollo@gmail.com',
-};
-
 // FOOTER DATA
 export const footerData = {
   networks: [
