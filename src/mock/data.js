@@ -34,7 +34,6 @@ export const projectsData = [
     info2:
       'A Rails 7 application leveraging pg_search for autocomplete functionality and a custom search algorithm to deliver the most accurate match based on user input. Utilizes Hotwire to render results instantly via turbo frame.',
     url: 'https://discapedia.com/',
-    repo: 'https://github.com/VinceCarollo/discapedia', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -43,7 +42,6 @@ export const projectsData = [
     info:
       "Speech Operated Peronal Home Interactive Assistant. This is a React Native app with a Ruby on Rails backend. I focused heavily on db schema creation and Google's speech to text api to allow users to record their voice to create tasks for their caretakers.",
     info2: "Took 1st place at Turing School of Software and Design's 2019 Demo Competition.",
-    url: '',
     repo: 'https://github.com/kalex19/Sophia-Native', // if no repo, the button will not show up
   },
   {
