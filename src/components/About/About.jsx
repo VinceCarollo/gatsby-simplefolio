@@ -53,10 +53,9 @@ const About = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-btn cta-btn--resume"
-                    href="/src/vcarolloResume.pdf"
-                    download
+                    href="/vcarolloResume.pdf"
                   >
-                    Download Resume
+                    See Resume
                   </a>
                 </span>
               </div>
