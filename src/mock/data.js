@@ -53,7 +53,6 @@ export const projectsData = [
     info:
       'Rails 6 booking app that facilitates hiring of home chefs for a personal chef experience. Chefs can enter dishes that customers can choose from based on quantity and price.',
     info2: 'Used to learn webpack and build a front end with interactive JS.',
-    url: 'https://evening-reaches-67042.herokuapp.com/',
     repo: 'https://github.com/VinceCarollo/home_chef', // if no repo, the button will not show up
   },
 ];
