@@ -14,8 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "engines": {
-    "node": "23.11.0",
-    "yarn": "1.22.21"
+    "node": "23.11.0"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
